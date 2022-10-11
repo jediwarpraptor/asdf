@@ -17,6 +17,9 @@ The tools for Docs site development are managed with `asdf` in the `docs/.tool-v
 
 ```shell:no-line-numbers
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs
+asdf plugin add bats
+asdf plugin add shellcheck
+asdf plugin add shfmt 
 ```
 
 Install the tool version(s) with:
